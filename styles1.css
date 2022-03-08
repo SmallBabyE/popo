@@ -1,0 +1,144 @@
+body {
+    background: rgb(239, 239, 240);
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1 {
+    color:rgb(3, 0, 177);
+    font-weight: normal;
+    /* font-family: Cambria */
+
+}
+
+h3 {
+    color:rgb(3, 0, 177);
+    font-weight: normal;
+    /* font-family: Cambria */
+}
+.avatar {
+    width: 400px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba{0, 0, 0, 0.25};
+
+}
+.info p {
+    color: black;
+
+}
+.stile {
+    max-width: 950px;
+    margin:auto;
+}
+
+
+a {
+    color: rgb(3, 0, 177);
+    text-decoration: none;
+}
+a:hover {
+    color:#0f141e ;
+}
+a:visited {
+    color:#0f141e;
+}
+.pipi-za { 
+    background-color: rgb(193, 237, 255);
+    border-radius: 28px;
+    padding:15px 15px;
+    margin-bottom: 15px;
+    display: flex;
+}
+@media (max-width: 700px){
+    .pipi-za{
+        display: block;
+        text-align:center;
+    }
+}
+.pipi-in {
+    background-color: rgb(193, 237, 255);
+    border-radius: 28px;
+    padding:15px 15px;
+    margin-bottom: 15px;
+
+}
+.inf {
+    list-style: none;
+
+}
+.inf li{
+    margin-bottom: 10px;
+
+}
+.pipi-tb {
+    background-color: rgb(193, 237, 255);
+    border-radius: 28px;
+    margin-bottom: 15px;
+    padding: 15px 15px;
+}
+.tb {
+    width: 100%;
+
+}
+.tb td {
+    padding-bottom: 10px;
+
+}
+.tb-h {
+    font-weight: bold;
+    color:black;
+}
+.form {
+    background-color: rgb(193, 237, 255);
+    border-radius: 28px;
+    margin-bottom: 10px;
+    padding: 15px 15px;
+}
+.forma label {
+    display: block;
+    border: none;
+    border-bottom: 2px solid rgb(193, 237, 255);
+    outline:none;
+    font-family: inherit;
+
+}
+.forma input{
+    width:100%;
+    border: none;
+    border-bottom: 2px solid black;
+    outline:none;
+    font-family: inherit;
+    background: transparent;
+}
+.forma textarea{
+    width:100%;
+    border: none;
+    border-bottom: 2px solid black;
+    outline:none;
+    font-family: inherit;
+    background: transparent;
+}
+.arara {
+    display: flex;
+    margin-bottom: 20px;
+}
+.arara > .forma{
+    width: 50%;
+    margin-right: 20px;
+}
+.pipi-za-text {
+    margin-left:10px;
+}
+.btm {
+    background-color: rgb(193, 237, 255);
+    width: 100%;
+    padding:15px 20px;
+    cursor: pointer;
+}
+.btm:hover {
+    opacity: 0.9;
+}
+ Positifon

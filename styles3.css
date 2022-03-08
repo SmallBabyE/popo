@@ -1,0 +1,60 @@
+body {
+    background: rgb(239, 239, 240);
+    color: #0f141e;
+    font-size: 16px;
+    font-weight: normal;    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color:rgb(3, 0, 177);
+    font-weight: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.info p {
+    color: black;
+
+}
+h3 {
+    color: rgb(3, 0, 177);
+    font-weight: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.stile {
+    max-width: 950px;
+    margin:auto;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color:#0f141e ;
+}
+a:visited {
+    color:#0f141e;
+}
+.pipi-za{ 
+    background-color: rgb(193, 237, 255);
+    border-radius: 28px;
+    padding:15px 15px;
+    margin-bottom: 15px;
+}
+@media (max-width: 700px){
+    .pipi-za{
+        display: block;
+        text-align:center;
+    }
+}
+.pipi-in{
+    background-color: rgb(193, 237, 255);
+    border-radius: 28px;
+    padding:15px 15px;
+    margin-bottom: 15px;
+}
+.inf {
+    list-style: none;
+}
+.inf li{
+    margin-bottom: 10px
+}
